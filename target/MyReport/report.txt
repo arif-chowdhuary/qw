@@ -1,0 +1,5 @@
+
+Scenario: user registration with different data # src/test/resources/AppFeatures/Registration.feature:4
+  Given User is on registration page            # stepDefinations.UserRegistrationSteps.user_is_on_registration_page()
+  When User enters following user details       # stepDefinations.UserRegistrationSteps.user_enters_following_user_details(io.cucumber.datatable.DataTable)
+  Then user registration should be successful   # stepDefinations.UserRegistrationSteps.user_registration_should_be_successful()

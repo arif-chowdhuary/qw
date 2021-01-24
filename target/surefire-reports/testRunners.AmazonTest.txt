@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: testRunners.AmazonTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.39 s <<< FAILURE! - in testRunners.AmazonTest
+Search a Product Iphone(Amazon Search)  Time elapsed: 0.012 s  <<< FAILURE!
+junit.framework.ComparisonFailure: expected:<Iphoneo> but was:<null>
+
